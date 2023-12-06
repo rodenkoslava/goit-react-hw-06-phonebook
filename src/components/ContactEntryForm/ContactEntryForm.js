@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { Formik, Field } from 'formik';
 import { StyledForm, Error, Title } from './ContactEntryForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectContacts } from 'redux/selectors';
+import { selectContacts } from '../../redux/selectors';
 
 export const ContactEntryForm = () => {
   const dispatch = useDispatch();

@@ -6,7 +6,7 @@ import {
   StyledDeleteButton,
 } from './ContactList.styled';
 import { deleteContact } from 'redux/contactsSlice';
-import { selectContacts, selectFilters } from 'redux/selectors';
+import { selectContacts, selectFilters } from 'redux/contactsSlice';
 
 export const ContactList = () => {
   const contacts = useSelector(selectContacts);
